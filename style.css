@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #00bcd4;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffeb3b;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #00bcd4, #00838f);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.highlight {
+  color: #ffeb3b;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 15px 25px;
+  background: #ffeb3b;
+  color: #00838f;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #fbc02d;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.about h3 {
+  margin-top: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.contact-list li {
+  margin: 5px 0;
+}
+
+/* Projects Section */
+.projects {
+  background: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Games Section */
+.games {
+  background: #f3f3f3;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.game-buttons button {
+  margin: 15px;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #00acc1;
+  color: white;
+  transition: transform 0.2s, background 0.3s ease;
+}
+
+.game-buttons button:hover {
+  background: #00838f;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background: #263238;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
